@@ -1,0 +1,15 @@
+{
+  "name": "slack-slate-bridge",
+  "version": "1.0.0",
+  "description": "Free bridge: receives Slack events, triggers Slate workflows",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
